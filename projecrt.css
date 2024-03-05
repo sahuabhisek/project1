@@ -1,0 +1,129 @@
+.header img{
+           height: 500px;
+           width: 98vw;
+           
+}
+   
+
+.header img{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    
+}   
+.header h1{
+          color: white;
+          position:absolute;
+          top:200px;
+          left:400px;
+          font-size: 40px;
+          font-weight: 900;
+}
+.header p {
+    color: white;
+    position:absolute;
+    top:220px;
+    left:480px;
+    bottom: 40px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.header h2{
+    color: white;
+    position:absolute;
+    top:250px;
+    left:370px;
+    bottom: 40px;
+    font-weight: 900;
+    font-size: 50px;
+}
+.container {
+              border: 1px solid black;
+              height: 200px;
+              width: 97vw;
+              position: absolute;
+              top: 500px;
+              background-color: black;
+              margin: 5px;
+}
+.container h1 {
+                     text-align: center;
+                     color: white;
+                     top: 100px;
+                     display:flex ;
+                     color:white;
+                     padding: 50px;
+                     margin-left: 400px;
+                     letter-spacing: 5px;
+                     /* background-color: black; */
+}
+ 
+.flex-container{
+                -border:1px solid black;
+                height: 500px;
+                width: 98vw;
+                position: absolute;
+               top: 710px;
+}
+.flex-container h2{
+                         margin: 10px;
+                         font-weight: 900;  
+}
+.flex-container p{
+                    margin: 5px;    
+}
+
+
+.item{
+      border: 1px solid black; 
+      height: 400px;
+      width: 400px;
+    display:inline-block;
+    gap: 15px;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+    
+
+}
+.item img{
+           width: 30vw;
+           border-radius: 8px;
+}
+.flex{
+       -border: 1px solid black;
+       height: 300px;
+       width: 98vw;
+       display: flex;
+}
+.item1{
+             -border: 1px solid black;
+             height: 300px;
+             width: 700px;
+             background-color:brown
+             
+}
+.item1 h1{
+         margin: 50px;
+}
+.item1 p{
+           margin: 50px;
+}
+.item1 h6{
+           font-size: 20px;
+           margin-left: 50px;
+}
+.flex1{
+            border: 1px solid black;
+            width: 98vw;
+            height: 100px;
+            background-color: black;
+}
+.flex1 h2{
+              color: whitesmoke;
+              text-align: center;
+              margin: 30px;
+}
